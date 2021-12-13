@@ -1,0 +1,16 @@
+h1{
+	background: lightblue;
+	font-size:50px;
+	text-align: center;
+}
+img{
+	width: 300px;
+	border: 20px double pink;
+}
+.left{
+	float: left;
+}
+h2{
+	font-size: 50px;
+	background: lightpink;
+}
