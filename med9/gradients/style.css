@@ -1,0 +1,39 @@
+h2{
+	padding: 50px;
+	margin: 20px;
+}
+
+h3{
+	padding: 50px;
+	margin: 20px;
+}
+
+h4{
+	padding: 50px;
+	margin: 20px;
+}
+
+h5{
+	padding: 50px;
+	margin: 20px;
+}
+
+.grad1{
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+}
+
+.grad2{
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,0) 100%);
+
+}
+
+.grad3{
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,221,233,0.9192051820728291) 100%);
+
+}
+
+.grad4{
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,138,252,0.0032387955182072714) 100%);
+
+}
