@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Serif:ital,wght@1,100&display=swap');
+
+body{
+	margin: 0;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	background-image: url("photo5.jpg");
+	background-size: cover;
+	background-position: center;
+}
+	
+
+header h1 {
+	background-color: rgba(255,255,255,0.5);
+	padding: 20px;
+	border-radius: 20px;
+}
+
+main{
+	background: radial-gradient(circle, rgba(197,174,238,1) 14%, rgba(161,148,233,1) 42%);
+	padding: 100px;
+}
+
+main p{
+	column-count: 2;
+}
+
+footer{
+	height: 300px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-image: url(photo5.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+footer p{
+	color: white;
+	font-size: 25px;
+	background-color: rgba(0,0,0,0.5);
+	padding: 30px;
+	border-radius: 20px;
+}
