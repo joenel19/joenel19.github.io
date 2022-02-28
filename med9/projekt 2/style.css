@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:ital,wght@1,700&family=Raleway:wght@200&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&family=Supermercado+One&display=swap');
+
+
+h1{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: Raleway;
+	padding: 50px;
+}
+
+h2{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: Dancing Script;
+}
+
+.a{
+	border: 4px dotted;
+	padding: 30px;
+	color: black;
+	margin: 10px;
+	column-count: 3;
+	font-family: Raleway;
+}
+
+#b{
+	border: 4px dotted;
+	color: black;
+	margin: 10px;
+	justify-content: center;
+	background: radial-gradient(circle, rgba(47,117,162,1) 13%, rgba(47,146,162,1) 91%);
+	padding: 75px;
+	align-items: center;
+	display: flex;
+}
+
+p{
+	background-color: white;
+}
+
+#b{
+	background-color: white;
+}
+
+.c{
+	border: 4px dotted;
+	color: black;
+	background: linear-gradient(90deg, rgba(168,232,255,1) 100%, rgba(149,221,251,0) 100%);
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+img{
+	width: 300px;
+	border: 4px dotted;
+	color: black;
+	background: linear-gradient(90deg, rgba(0,74,255,1) 100%, rgba(0,18,36,1) 100%);
+	justify-content: center;
+	margin: 10px;
+}
+
