@@ -1,0 +1,91 @@
+/*
+*
+* Title: Website über Basketball
+* Author: Joena Nelaj
+* Date: 28.03.2022
+*
+*/
+
+
+/********************************* General Styling **************************************/
+
+body{
+	margin: 0px;
+}
+
+
+/* Navigation*/
+nav{
+	background-color: steelblue;
+	height: 100px;
+	background: radial-gradient(circle, rgba(47,135,162,1) 0%, rgba(47,141,162,1) 79%, rgba(47,146,162,1) 91%, rgba(47,117,162,1) 97%);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+}
+
+nav img{
+	height: 80px;
+	border-radius: 20%;
+}
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+
+nav ul li a{
+	margin: 10px;
+	padding: 20px;
+	background-color: white;
+	color: steelblue;
+	text-decoration: none;
+	border-radius: 15px;
+}
+
+nav ul li a:hover{
+	background-color: darkblue;
+	color: white;
+}
+
+
+/* Header */
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	background-image: url("bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+header h1{
+	font-size: 30px;
+	padding: 30px;
+	background-color: rgba(255,255,255,0.7);
+    color: steelblue;
+    border-radius: 20px;
+}
+
+
+/* Footer */
+footer{
+	height: 300px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background: radial-gradient(circle, rgba(47,135,162,1) 0%, rgba(87,47,162,1) 41%, rgba(47,141,162,1) 89%, rgba(47,146,162,1) 100%);
+    }
+
+    footer p{
+    	font-size: 20px;
+    	padding: 30px;
+    	color: steelblue;
+    	border-radius: 15px;
+    	background-color: rgba(255,255,255,0.7);
+
+    }
